@@ -36,5 +36,3 @@ if __name__ == '__main__':
     create_table_employees()
     create_table_customers()
     create_table_orders()
-
-"""Скрипт для заполнения данными таблиц в БД Postgres."""

@@ -27,8 +27,3 @@ def create_orders():
         for i in filedata:
             data.append(i)
         return data
-
-# ty1 = create_employees()
-# ty2 = create_customers()
-# ty3 = create_orders()
-# print(ty3)
