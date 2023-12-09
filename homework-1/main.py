@@ -1,8 +1,8 @@
 import psycopg2
 from north_data.csv_reader import create_employees, create_customers, create_orders
 
-# password = input('Введите свой пароль postgress\n')
-table1 = psycopg2.connect(host="localhost", database="north", user="postgres", password='19855891PDApda')
+password = input('Введите свой пароль postgress\n')
+table1 = psycopg2.connect(host="localhost", database="north", user="postgres", password=password)
 
 
 def create_table_employees():
